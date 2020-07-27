@@ -1,0 +1,94 @@
+body {
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* Flex Container */
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  /* flex-direction: column; */
+  border: 10px solid goldenrod;
+}
+
+/* Header Section */
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 10px solid red; */
+  justify-content: space-between;
+}
+
+/* Top Section */
+
+.top {
+  flex: 0 1 40%;
+}
+/* .intro, .mockups {
+  flex-basis: 50%;
+} */
+
+/* Buttons */
+
+.button.try {
+  justify-content: flex-end;
+}
+
+.button {
+	background-color:#ff52c0;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:16px 40px;
+	text-decoration:none;
+}
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  background-color: navy;
+  padding: 10% 7% 3%;
+  color: #fff;
+  flex-wrap: nowrap;
+}
+
+.logo-footer {
+  width: 100%;
+}
+
+.col-1, .col-2, .col-3, .col-4 {
+  background-color: red;
+  flex: 1;
+  padding: 2% 7% 0 0;
+}
+
+.col-1 {
+  background-color: red;
+}
+.col-2 {
+  background-color: yellow;
+}
+.col-3 {
+  background-color: green;
+}
+.col-4 {
+  background-color: purple;
+}
+
+.copyright {
+  justify-content: flex-end;
+}
